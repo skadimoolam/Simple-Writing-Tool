@@ -21,6 +21,10 @@
       text-align: justify;
     }
 
+    p:empty:not(:focus)::before {
+      content: attr(placeholder);
+    }
+
     .editor.form-control {
       border-radius: 0;
       border: 0;
@@ -44,7 +48,7 @@
         <input type="text" class="editor form-control" id="form-piece-title" placeholder="Name this piece." autofocus>
       </div>
 
-      <p class="editor form-control" id="form-piece-body" contenteditable>Note Down your thoughts here...</p>
+      <p class="editor form-control" id="form-piece-body" placeholder="Note Down your thoughts here..." contenteditable></p>
 
       <div>
         <button class="btn btn-sm btn-outline-primary mr-1" onclick="saveEditor()">Save</button>
