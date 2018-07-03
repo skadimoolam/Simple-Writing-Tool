@@ -1,5 +1,7 @@
 # A Simple Distraction free, no extra gimmick, writing tool
 
+https://github.com/skadimoolam/Simple-Writing-Tool.git
+
 ![Simple writing tool](./screenshot.png)
 
 ## Features
